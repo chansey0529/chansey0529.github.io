@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Chenxi Zheng"
-  avatar           : "images/chenxi.png"
+  avatar           : "images/chenxi.jpg"
   bio              : "PhD Candidate @ SCUT"
   location         : "Guangzhou, China"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : chensey0529
+  github           : chansey0529
   google_plus      :
   keybase          :
   instagram        :
