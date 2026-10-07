@@ -55,10 +55,28 @@
         display: flex;
         width: 100%;
         order: 2;
-        img {
-            max-width: 400px;
+
+        > div {
+            position: relative;
+            width: 100%;
+            max-width: 280px;
+            aspect-ratio: 16 / 9;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: white;
+            overflow: hidden;
             box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            max-width: none;
+            object-fit: contain;
+            display: block;
         }
     }
     
@@ -70,18 +88,24 @@
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+
+            flex: 0 0 280px;
+            width: 280px;
+            min-width: 280px;
+            max-width: 280px;
+
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 60%;
+
+            flex: 1;
+            max-width: none;
+
             order: 2;
         }
-
     }
 
 
@@ -97,13 +121,62 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.badge{
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    top: .5em;
+    left: -.5em;
+    z-index: 2;
+
+    margin: 0;
+    padding: .25em 1em;
+
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.talk-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: 1px #efefef solid;
+    padding: 1em 0;
+}
+
+.talk-box-image {
+    flex: 0 0 88px;
+    width: 88px;
+
+    > div {
+        width: 88px;
+        aspect-ratio: 4 / 3;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: white;
+        overflow: hidden;
+        box-shadow: 2px 2px 4px #aaa;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+}
+
+.talk-box-text {
+    flex: 1;
+    padding-left: 1em;
+    line-height: 1.4;
+
+    p {
+        margin: 0;
+    }
 }

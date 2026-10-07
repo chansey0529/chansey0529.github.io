@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Chenxi Zheng's academic homepage"
-description              : "Focus on 3D vision, e.g., text-to-3D generation, 3D object generation."
+description              : "3D Generative Modeling, especially 3D Mesh Generation."
 repository               : "chansey0529/chansey0529.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Chenxi Zheng"
+  name             : "Chenxi Zheng (郑辰熙)"
   avatar           : "images/chenxi.jpg"
   bio              : "PhD Candidate @ SCUT"
   location         : "Guangzhou, China"
