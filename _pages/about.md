@@ -187,8 +187,9 @@ Yuyang Yu<sup>*</sup>, Bangzhen Liu<sup>*</sup>, **Chenxi Zheng**, Xuemiao Xu<su
 
 # 🎖 Honors and Awards
 
+- **2026.09** Yanbao Corporate Scholarship, South China University of Technology (Ph.D.).
 - **2023.09** Anjubao Corporate Scholarship, South China University of Technology (Undergraduate).
-- **2022.09** President's Scholarship, South China University of Technology (Undergraduate).
+- **2022.09** First-Class University Scholarship, South China University of Technology (Undergraduate).
 - **Kaggle Competitions**: Won **4 Bronze Medals** in Kaggle competitions. [[Profile]](https://www.kaggle.com/chanseyzheng)
 
 
